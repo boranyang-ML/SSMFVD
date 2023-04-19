@@ -1,4 +1,4 @@
-# Streetscape and Subway Masked Face Video Dataset
+# Streetscape and Subway Masked Face Video Dataset (SSMFVD)
 
 ## Dataset
 
