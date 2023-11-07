@@ -60,8 +60,11 @@ Please check the `requirements.txt` file
 (which relates to code implementation)
 
 [1] Zhu, Yongchun, et al. "Deep subdomain adaptation network for image classification." IEEE transactions on neural networks and learning systems (2020).
+
 [2] https://github.com/jindongwang/transferlearning
+
 [3] https://github.com/pytorch/vision/tree/master/torchvision/models/detection
+
 Full references can be found [here](https://ieeexplore.ieee.org/document/10191466/references#references).
 
 ## Citation
