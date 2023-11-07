@@ -55,12 +55,26 @@ Please check the `requirements.txt` file
 * Once you obtain the trained weights from first training stage, you can use the `/TrainingStage2/process_weights_from_stage1.ipynb` to process the weights and save the weights under the `/TrainingStage2/backbone/` folder
 * Then you can start second training stage with `faster_rcnn_baseline.ipynb`, `main.ipynb`, `evaluate-main.ipynb`, or `predict.ipynb`
 
-## References (TODO)
+## References 
+(which related to code implementation)
 
+[1] Zhu, Yongchun, et al. "Deep subdomain adaptation network for image classification." IEEE transactions on neural networks and learning systems (2020).
+[2] https://github.com/jindongwang/transferlearning
+[3] https://github.com/pytorch/vision/tree/master/torchvision/models/detection
 
+Full references can be found [here](https://ieeexplore.ieee.org/document/10191466/references#references).
 
-## Citation (TODO)
+## Citation
 
-If you think this toolkit or the results are helpful to you and your research, please cite us!
+If you think this git repo is helpful to you and your research, please cite us!
 
-
+```
+@inproceedings{yang2023ss,
+  title={SS-Faster-RCNN: A Domain Adaptation-based Method to Detect Whether People Wear Masks Correctly},
+  author={Yang, Boran and Hossain, Md Zakir and Rahman, Shafin},
+  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2023},
+  organization={IEEE}
+}
+```
