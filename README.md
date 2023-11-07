@@ -12,9 +12,10 @@ Please note that the dataset provided is for academic research purposes and is n
 
 
 ## Code
-The folder `TrainingStage1` contains all the code for the first training stage, and the folder `TrainingStage2` contains code for the second training stage and some helper functions.
+* The folder `TrainingStage1` contains all the code for the first training stage.
+* The folder `TrainingStage2` contains code for the second training stage and some helper functions.
 
-## Environments：
+## Environments
 Please check the `requirements.txt` file
 
 ## Training Stage 1
