@@ -1,0 +1,5 @@
+{
+    "with_mask": 1,
+    "without_mask": 2,
+    "mask_weared_incorrect": 3
+}
