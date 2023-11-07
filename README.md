@@ -16,7 +16,7 @@ Please note that the dataset provided is for academic research purposes and is n
 * The folder `TrainingStage2` contains code for the second training stage and some helper functions.
 
 ## Environments
-Please check the `requirements.txt` file
+Please check the `requirements.txt` file.
 
 ## Training Stage 1
 ### File structure
@@ -46,15 +46,15 @@ Please check the `requirements.txt` file
 ```
 
 ### Download address for pre-trained weights (download and place in the backbone folder):
-* ResNet50 imagenet weights backbone: [https://download.pytorch.org/models/resnet50-0676ba61.pth](https://download.pytorch.org/models/resnet50-0676ba61.pth)
-* ResNet50+FPN backbone: [https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth](https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth)
-* Please rename the downloaded backbone weights if necessary (e.g. `resnet50.pth` or `fasterrcnn_resnet50_fpn_coco.pth`)
+* ResNet50 imagenet weights backbone: [here](https://download.pytorch.org/models/resnet50-0676ba61.pth).
+* ResNet50+FPN backbone: [here](https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth).
+* Please rename the downloaded backbone weights if necessary (e.g. `resnet50.pth` or `fasterrcnn_resnet50_fpn_coco.pth`).
 
 ## How to run
 * Please prepare the datasets and pre-trained weights before running the code
-* For the first training stage, you can run the `/TrainingStage1/main.ipynb` with Google Colab and make sure configure the directory properly
-* Once you obtain the trained weights from first training stage, you can use the `/TrainingStage2/process_weights_from_stage1.ipynb` to process the weights and save the weights under the `/TrainingStage2/backbone/` folder
-* Then you can start second training stage with `faster_rcnn_baseline.ipynb`, `main.ipynb`, `evaluate-main.ipynb`, or `predict.ipynb`
+* For the first training stage, you can run the `/TrainingStage1/main.ipynb` with Google Colab and make sure configure the directory properly.
+* Once you obtain the trained weights from first training stage, you can use the `/TrainingStage2/process_weights_from_stage1.ipynb` to process the weights and save the weights under the `/TrainingStage2/backbone/` folder.
+* Then you can start second training stage with `faster_rcnn_baseline.ipynb`, `main.ipynb`, `evaluate-main.ipynb`, or `predict.ipynb` on Google Colab.
 
 ## References 
 (which relates to code implementation)
